@@ -1,44 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Timeless</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Timeless Sign Up</title>
+  
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js"></script>
+  
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Roblox Timeless</h1>
-        <p>Experience the Roblox of 2009, as it was meant to be!</p>
-    </header>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>This project is all about reviving the Roblox experience from 2009.</p>
-        </section>
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Welcome to Roblox Timeless</h1>
+    <p>Sign up or log in to get started!</p>
 
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Classic Gameplay</li>
-                <li>Old Roblox Interface</li>
-                <li>Community Events</li>
-            </ul>
-        </section>
+    <!-- Google Sign-In Button -->
+    <button id="google-sign-in-button">Sign In with Google</button>
+  </div>
 
-        <!-- Add a Sign Up Button -->
-        <section id="signup">
-            <h2>Get Started</h2>
-            <a href="signup.html">
-                <button id="signupButton">Sign Up</button>
-            </a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Roblox Timeless | All Rights Reserved</p>
-    </footer>
-
+  <!-- Your custom script -->
+  <script src="script.js"></script>
 </body>
 </html>
