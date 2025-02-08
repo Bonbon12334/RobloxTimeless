@@ -1,79 +1,75 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header */
 header {
-    background-color: #4CAF50;
+    text-align: center;
+    background-color: #333;
     color: white;
     padding: 20px;
-    text-align: center;
 }
 
-/* Navigation */
 nav {
-    background: #333;
-    color: white;
-    padding: 10px;
     text-align: center;
+    margin: 20px 0;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 10px;
 }
 
-nav a {
-    color: white;
+nav ul li a {
     text-decoration: none;
+    color: #333;
 }
 
-/* Main content */
 main {
+    margin: 20px;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Section styling */
-section {
-    margin-bottom: 20px;
+#contactForm div {
+    margin-bottom: 15px;
 }
 
-h2 {
-    color: #4CAF50;
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
+#contactForm input, #contactForm textarea {
+    width: 100%;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
-/* Button styles */
-button {
+#contactForm button {
+    padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px 15px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
+#contactForm button:hover {
     background-color: #45a049;
 }
