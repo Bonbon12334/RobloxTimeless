@@ -12,64 +12,26 @@ header {
     padding: 20px;
 }
 
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
 main {
     margin: 20px;
 }
 
-#contactForm {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+#about, #features {
+    margin-bottom: 30px;
 }
 
-#contactForm div {
-    margin-bottom: 15px;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-#contactForm label {
-    display: block;
-    margin-bottom: 5px;
+ul li {
+    margin: 5px 0;
 }
 
-#contactForm input, #contactForm textarea {
-    width: 100%;
+footer {
+    text-align: center;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-#contactForm button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#contactForm button:hover {
-    background-color: #45a049;
 }
